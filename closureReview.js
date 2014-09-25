@@ -9,4 +9,6 @@ var callFriend = function(){
 //Above your given a callFriend function, that returns another function. 
 //Do what you need with the code above in order to console.log 'Calling Jake at 435-215-9248'
 
+var output = callFriend();
 
+output("435-215-9248");
